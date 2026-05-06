@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+.main-header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 10px;
+}
+
+
+.sub-header {
+    background-color: #000;
+    color: white;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 60px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+
+.container {
+    border: 2px solid #333;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin: 10px 0 20px 10px;
+    font-size: 1.5rem;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+
+.card {
+    border: 2px solid #000;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.card:active {
+    transform: scale(0.98);
+}
+
+.card-top {
+    padding: 15px 5px;
+    font-size: 1.3rem;
+    color: white;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-bottom {
+    background-color: #fff;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-top: 2px solid #000;
+}
+
+
+.blue .card-top {
+    background-color: #5d66f6; 
+}
+
+.orange .card-top {
+    background-color: #ffb164; 
+}
+
+
+.main-footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}

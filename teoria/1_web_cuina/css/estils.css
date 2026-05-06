@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#all{
+    width: 1024px;
+    margin: 0 auto;
+}
+#header{
+    height: 150px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    font-family: "La Belle Aurore", cursive;
+    color: white;
+    font-size: 80px;
+    font-weight: normal;
+}
+
+#menu{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 10px 0px;
+
+
+}
+#nav{
+    height: 50px;
+    width: 250px;
+    /* background: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #363434;
+}
+
+#nav{
+    width: 480px;
+}
+
+#nav i{
+    font-size: 30px;
+}
+
+#x_socials{
+    height: 50px;
+    width: 250px;
+    /* background: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#x_socials i{
+    font-size: 48px;
+}
+
+#section_articles{
+    height: 508px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+
+
+}
+
+#article_ppal{
+    height: 508px;
+    width: 480px;
+    border: 2px solid black;
+    overflow: hidden;
+
+    padding: 10px;
+
+    /* background: url("../imatges/cuiner.jpg");
+    background-size: cover;
+    background-position: center; */
+}
+
+#article_ppal img{
+    width: 100%;
+}
+
+#article_secundari{
+    width: 480px;
+    /* ample */
+    height: 500px;
+    /* altura */
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex
+}
+
+.art_sec{
+    height: 220px;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.art_sec h2{
+    width: 100%;
+    background:black;
+    color: white;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+    border-radius: 4px;
+}
+
+.art_sec img{
+    width: 135px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.art_sec p{
+    width: 310px;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+}
+
+.art_sec a{
+    padding-left: 8px;
+}
+
+#section_noticies{
+    height: 300PX;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    margin: 60px 0px 75px 0px;
+
+}
+
+#section_noticies h2{
+    width: 100%;
+
+    background: red;
+    color: white;
+    margin-bottom: 18px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+    border-radius: 4px;
+}
+
+.noticies{
+    height:300px;
+    width: 280px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 10px;
+
+
+    
+}
+
+.noticies img{
+    width: 100%;
+}
+
+.noticies a{
+    text-decoration: none;
+    background: black;
+    color: white;
+
+    padding: 8px 16px;
+  
+
+
+
+    align-self: flex-end;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* .noticies p{
+
+} */
+
+#footer{
+     height: 50px;  
+     background: black;
+     color: white;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
